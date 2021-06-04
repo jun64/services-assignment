@@ -11,11 +11,9 @@ export class CounterService {
 
   countInactiveToActive (){
     this.inToAct++;
-    console.log('Inactive to Active : ' + this.inToAct);
   }
 
   countActiveToInactive (){
     this.actToIn++;
-    console.log('Active to Inactive : ' + this.actToIn);
   }
 }
